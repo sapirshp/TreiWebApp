@@ -1,11 +1,15 @@
 {
   "users": [
-    { "id": 1, "name": "Sapir" },
-    { "id": 2, "name": "Oren" },
-    { "id": 3, "name": "Moshe" }
+    { "id": 1, "name": "Sapir", "memberOf": [1,2]},
+    { "id": 2, "name": "Oren", "memberOf": [1]},
+    { "id": 3, "name": "Moshe", "memberOf": [2]}
   ],
   "articles": [
     { "id": 1, "name": "יגון", "author": "אנטון צ'כוב", "text": "some text"},
     { "id": 2, "name": "האדונית והרוכל", "author": "שי עגנון" , "text": "some text" }
+  ],
+  "groups": [
+    {"id": 1, "members":[1,2], "article": 1}
+    {"id": 2, "members":[1,3], "article": 2}
   ]
 }
