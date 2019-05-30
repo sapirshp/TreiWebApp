@@ -1,12 +1,12 @@
 {
   "users": [
-    { "id": 1, "name": "Sapir", "memberOf": [1,2]},
-    { "id": 2, "name": "Oren", "memberOf": [1]},
-    { "id": 3, "name": "Moshe", "memberOf": [2]}
+    { "id": 1, "name": "Sapir", "memberOf": [1,2], "image": "https://avatarfiles.alphacoders.com/643/thumb-64385.png"},
+    { "id": 2, "name": "Oren", "memberOf": [1], "image": "https://i.pinimg.com/236x/2a/52/b5/2a52b5d59f1d695d2565905e78e05cd4--class-dojo-avatar.jpg"},
+    { "id": 3, "name": "Moshe", "memberOf": [2], "image": "https://clipartion.com/wp-content/uploads/2015/10/dojo-monster-clipart.png"}
   ],
   "articles": [
     { "id": 1, "name": "יגון", "author": "אנטון צ'כוב", "text": "some text"},
-    { "id": 2, "name": "האדונית והרוכל", "author": "שי עגנון" , "text": "some text" }
+    { "id": 2, "name": "האדונית והרוכל", "author": "ש\"י עגנון" , "text": "some text" }
   ],
   "groups": [
     {"id": 1, "members":[1,2], "article": 1},
