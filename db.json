@@ -9,7 +9,7 @@
     { "id": 2, "name": "האדונית והרוכל", "author": "שי עגנון" , "text": "some text" }
   ],
   "groups": [
-    {"id": 1, "members":[1,2], "article": 1}
+    {"id": 1, "members":[1,2], "article": 1},
     {"id": 2, "members":[1,3], "article": 2}
   ]
 }
